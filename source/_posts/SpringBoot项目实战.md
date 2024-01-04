@@ -2,6 +2,8 @@
 title: SpringBoot项目实战
 date: 2023-12-28 20:56:47
 tags: SpringBoot
+categories: # 分类
+- 学习笔记
 
 ---
 

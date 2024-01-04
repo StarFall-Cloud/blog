@@ -16,6 +16,22 @@ lazyload:
   enable: true
   loadingImg: /img/loading.gif
 
+aplayer:
+  meting: true
+  asset_inject: false
+
+live2d:
+  enable: true  #是否显示看板娘
+  pluginModelPath: assets/
+  model:
+    use: live2d-widget-model-chitose  #模板目录，在node_modules里，就刚刚复制的那些，直接更换名字即可
+  display:
+    position: right   #宽高以及位置自己看着调
+    width: 200 
+    height: 300
+  mobile:
+    show: false  #是否在手机进行显示
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
